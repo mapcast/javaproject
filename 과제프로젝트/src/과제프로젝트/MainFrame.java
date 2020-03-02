@@ -76,7 +76,7 @@ public class MainFrame extends JFrame {
 		readbutton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				dispose();
-				new SelFrame().setVisible(true);
+				new SelFrame().setVisible(true); //주석 수정 1
 			}
 		});
 		readbutton.setIcon(new ImageIcon("C:\\\uC790\uBC14\uD559\uC2B5\\\uACFC\uC81C\uD504\uB85C\uC81D\uD2B8\\Image\\CRUD.png"));
